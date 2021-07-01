@@ -1,6 +1,6 @@
-# Language-Tutor-French
+# Language-Tutoring-with-AWS-Polly
 
-Language-Tutor-French is a working solution of a personal language tutoring project that uses AWS Amazon Polly's neural voices to generate (close to) natural sounding native voice recording in English and French.
+Language-Tutoring-with-AWS-Polly is a working solution of a personal language tutoring project that uses AWS Amazon Polly's neural voices to generate (close to) natural sounding native voice recording in English and French.
 
 ### How does it help language learning?
 When learning words in a foreign language, having it saved in our long-term memory requires that we encounter it on average seven times (sufficiently spread out in time). Therefore, a huge and often neglected element of language learning is regular revision. This was my rationale when I decided to work on this project, since my goal in the spring of 2021 was to rebuild my French and achieve fluency again. The script randomly samples words and corresponding sentences and reads them aloud in a specific order (word in English, word in French, sentence in French, sentence in English, sentence again in French) to optimize word retention. Random sampling is performed using a trinagular distribution to ensure that newly learned words (i.e. words entered into the spreadsheet at a later stage) will have a higher probability to be read out by the script in an early stage. 
